@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#EA2027;
+}
+#main-img{
+    height: 78%;
+    width: 85%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#logo{
+    position: absolute;
+    top: 6%;
+    left: 55%;
+    transform: translate(-20%,-40%);
+    
+}
+#logo img{
+    width: 15%;
+    height: 15%;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+#menu{
+    position: absolute;
+    top:50%;
+    left:4%;
+    transform: translate(-50%, -50%) rotate(-90deg) ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;  
+}
+#menu li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+   
+}
+#socials{
+    position: absolute;
+    top: 50%;
+    right: 3.5%;
+    transform: translateY(-50%);
+}
+#socials ul{
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+#socials ul li{
+    margin: 80px 0;
+    cursor: pointer;
+}
+.butn{
+    height: 35px;
+    width: 140px;
+    background-color: #EA2027;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform:  translateX(-50%);
+    cursor: pointer;  
+}
